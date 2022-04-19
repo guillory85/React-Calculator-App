@@ -1,0 +1,42 @@
+.App {
+  background-color: black;
+  height: 500px;
+  width: 300px;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.input {
+  background-color: rgba(128, 128, 128, 0.349);
+  color: white;
+  height: 100px;
+  width: 97%;
+  border-radius: 15%;
+  margin-top: 5px;
+  font-size: 45px;
+}
+
+.pad {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pad input {
+  background-color: rgba(38, 24, 238, 0.459);
+  color: white;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.pad :first-child,
+.pad :last-child {
+  width: 200px;
+  border-radius: 40%;
+}
